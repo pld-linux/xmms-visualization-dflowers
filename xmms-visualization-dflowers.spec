@@ -1,11 +1,11 @@
 Summary:	Dual Flowers.
 Summary(pl):	Podwójny Kwiat.
 Name:		xmms-visualization-dflowers
-Version:	1.0
+Version:	1.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://hem.passagen.se/joakime/dflowers_v%{version}.tar.gz
+Source0:	http://hem.passagen.se/joakime/dflowers-%{version}.tar.gz
 URL:		http://hem.passagen.se/joakime/linuxapp.html
 Requires:	xmms
 BuildRequires:	xmms-devel >= 1.2.3
@@ -23,7 +23,7 @@ Dual Flowers plugin for XMMS.
 Plugin Podwójny Kwiat dla XMMS.
 
 %prep
-%setup -q -n dflowers_v%{version}
+%setup -q -n dflowers-%{version}
 
 %build
 %{__make} OPT="%{rpmcflags}"
@@ -34,12 +34,10 @@ install -d $RPM_BUILD_ROOT/`%{_bindir}/xmms-config --visualization-plugin-dir`/
 
 install *.so	$RPM_BUILD_ROOT/`%{_bindir}/xmms-config --visualization-plugin-dir`/
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README Changes
 %attr(755,root,root) %{_libdir}/xmms/*/*.so
