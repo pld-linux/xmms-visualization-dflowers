@@ -2,7 +2,7 @@ Summary:	Dual Flowers
 Summary(pl):	Podwójny Kwiat
 Name:		xmms-visualization-dflowers
 Version:	1.2.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://www.shell.linux.se/bm/f/dflowers-v%{version}.tar.gz
