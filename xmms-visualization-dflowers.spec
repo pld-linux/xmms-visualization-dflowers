@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://www.shell.linux.se/bm/f/dflowers-v%{version}.tar.gz
+# Source0-md5:	6d1d87b1f8dfb3485040d4c82b585481
 URL:		http://www.shell.linux.se/bm/index.php
 BuildRequires:	xmms-devel >= 1.2.3
 Requires:	xmms
