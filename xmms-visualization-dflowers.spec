@@ -1,5 +1,5 @@
-Summary:	Dual Flowers.
-Summary(pl):	Podwójny Kwiat.
+Summary:	Dual Flowers
+Summary(pl):	Podwójny Kwiat
 Name:		xmms-visualization-dflowers
 Version:	1.2
 Release:	1
