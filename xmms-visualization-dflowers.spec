@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Dual Flowers plugin for XMMS.
 
 %description -l pl
-Plugin Podwójny Kwiat dla XMMS.
+Wtyczka Podwójny Kwiat dla XMMS-a.
 
 %prep
 %setup -q -n dflowers-v%{version}
