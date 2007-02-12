@@ -1,5 +1,5 @@
 Summary:	Dual Flowers
-Summary(pl):	Podwójny Kwiat
+Summary(pl.UTF-8):   PodwÃ³jny Kwiat
 Name:		xmms-visualization-dflowers
 Version:	1.2.1
 Release:	3
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Dual Flowers plugin for XMMS.
 
-%description -l pl
-Wtyczka Podwójny Kwiat dla XMMS-a.
+%description -l pl.UTF-8
+Wtyczka PodwÃ³jny Kwiat dla XMMS-a.
 
 %prep
 %setup -q -n dflowers-v%{version}
